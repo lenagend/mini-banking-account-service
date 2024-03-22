@@ -1,4 +1,4 @@
-package dto;
+package com.example.minibankingaccountservice.dto;
 
 public class User {
     private Long id;

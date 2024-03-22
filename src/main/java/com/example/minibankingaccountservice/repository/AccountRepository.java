@@ -1,6 +1,6 @@
-package repository;
+package com.example.minibankingaccountservice.repository;
 
-import entity.Account;
+import com.example.minibankingaccountservice.entity.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

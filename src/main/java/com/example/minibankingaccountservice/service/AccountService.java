@@ -1,13 +1,13 @@
-package service;
+package com.example.minibankingaccountservice.service;
 
-import dto.User;
-import entity.Account;
+import com.example.minibankingaccountservice.dto.User;
+import com.example.minibankingaccountservice.entity.Account;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import repository.AccountRepository;
+import com.example.minibankingaccountservice.repository.AccountRepository;
 
 import java.util.List;
 
