@@ -12,7 +12,10 @@ public class Account {
     private Long id;
 
     private Long userId;
+
     private Double balance;
+
+    private Long bankProductId;
 
     public Long getId() {
         return id;
@@ -36,5 +39,13 @@ public class Account {
 
     public void setBalance(Double balance) {
         this.balance = balance;
+    }
+
+    public Long getBankProductId() {
+        return bankProductId;
+    }
+
+    public void setBankProductId(Long bankProductId) {
+        this.bankProductId = bankProductId;
     }
 }
